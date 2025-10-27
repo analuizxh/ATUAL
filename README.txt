@@ -5,7 +5,9 @@ Para rodar o projeto:
    cd backend
    npm install
 
-2. Configure o banco no arquivo .env (baseado no .env.example)
+2. Configure o banco no arquivo .env: DATABASE_URL="mysql://medobras_ana:sua_senha_aqui@127.0.0.1:3306/medobras_bd"
+
+JWT_SECRET=isso_eh_uma_chave_secreta_pode_ser_qualquer_coisa_123
 
 3. Rode as migrations e gere o client Prisma:
    npx prisma generate
